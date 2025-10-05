@@ -1,0 +1,107 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.contact-title{
+    position: relative;
+}
+
+.contact-title h1{
+ padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+
+.contact-section{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  gap: 30px;
+}
+
+.contact-left h1{
+    font-size: px;
+    font-weight: 700;
+     background: linear-gradient(267deg, #7A1E1E 0.36%, #8E44AD 102.06%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+
+.contact-right{
+     display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  gap: 30px;
+}
+.contact-right h1{
+        font-size: px;
+    font-weight: 700;
+     background: linear-gradient(267deg, #7A1E1E 0.36%, #8E44AD 102.06%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+
+}
+
+.contact-left p, .contact-right p{
+    max-width: 550px;
+    line-height: 35px;
+}
+
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 19px;
+}
+
+.contact-detail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-icon {
+  font-size: 25px;
+  min-width: 28px; 
+}
+
+.contact-detail a {
+  color: #000;          
+  text-decoration: none; 
+  font-weight: 500;     
+}
+
+.contact-detail a:hover {   
+    transform: scale(1.13);
+   transition: 0.5s;
+  background: linear-gradient(267deg, #7A1E1E 0.36%, #8E44AD 102.06%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-left,
+.contact-right {
+  padding: 30px;
+  border: 2px solid #7A1E1E;
+  border-radius: 12px;
+  
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
